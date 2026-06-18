@@ -124,6 +124,16 @@ figure img{border-radius:16px;box-shadow:0 18px 50px rgba(21,18,11,.2)}
 .manifesto .m{font-family:'Fraunces',serif;font-size:clamp(26px,4.4vw,50px);line-height:1.2;font-weight:400;max-width:980px;margin:0 auto}
 .manifesto .m em{color:#e0b7d1;font-style:italic}
 .manifesto .final{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(22px,3vw,32px);margin-top:46px;color:#cbb8a0}
+.qrband{background:var(--ink);color:var(--cream);text-align:center;padding:84px 0 72px;border-top:1px solid rgba(255,255,255,.12)}
+.qrband .skick{color:#e0b7d1}
+.qrband h2{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(30px,4.4vw,52px);letter-spacing:-.02em}
+.qrband h2 em{color:#e0b7d1;font-style:italic;font-weight:500}
+.qrrow{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:44px}
+.qrcard{display:block;text-decoration:none;background:#fff;border-radius:20px;padding:20px 20px 24px;width:248px;transition:transform .18s,box-shadow .18s}
+.qrcard:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.qrcard img{width:208px;height:208px;display:block;margin:0 auto;image-rendering:pixelated}
+.qrcard .ql{color:var(--ink);font-weight:700;font-size:17px;margin-top:14px;letter-spacing:.01em}
+.qrcard .qc{color:#7a7265;font-size:13px;margin-top:3px}
 footer{background:var(--ink);color:#a99e8b;text-align:center;padding:44px 0 60px;border-top:1px solid rgba(255,255,255,.12)}
 footer a{color:#e0b7d1;text-decoration:none}
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
@@ -279,6 +289,30 @@ footer a{color:#e0b7d1;text-decoration:none}
     <p class="final reveal">HolyHats — a hole new way to wear your hair and tan your top.</p>
     <div class="row" style="justify-content:center;margin-top:40px">
       <a class="btn btn-dark" style="background:var(--plum)" href="https://artizen.fund/index/p/holyhats-village-bucket-hats-made-from-ocean-fishnet" target="_blank" rel="noopener">Back HolyHats on Artizen ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="qrband">
+  <div class="wrap">
+    <div class="skick kick reveal">Scan in</div>
+    <h2 class="reveal">Take a HolyHat <em>home.</em></h2>
+    <div class="qrrow">
+      <a class="qrcard reveal" href="https://artizen.fund/index/p/holyhats-village-bucket-hats-made-from-ocean-fishnet" target="_blank" rel="noopener">
+        <img src="img/qr-artizen.png" alt="QR: back HolyHats on Artizen">
+        <div class="ql">Back us on Artizen</div>
+        <div class="qc">donate &amp; boost → unlock match funding</div>
+      </a>
+      <a class="qrcard reveal" href="https://www.simocracy.org/communities/edge-esmeralda" target="_blank" rel="noopener">
+        <img src="img/qr-simocracy.png" alt="QR: HolyHats on Simocracy">
+        <div class="ql">Our Simocracy proposal</div>
+        <div class="qc">in the Edge Esmeralda S-Process</div>
+      </a>
+      <a class="qrcard reveal" href="https://thirdsphere.substack.com/p/why-we-invested-in-return-to-vendor" target="_blank" rel="noopener">
+        <img src="img/qr-rtv.png" alt="QR: why we invested in RTV">
+        <div class="ql">The RTV story</div>
+        <div class="qc">why we back Return to Vendor</div>
+      </a>
     </div>
   </div>
 </section>

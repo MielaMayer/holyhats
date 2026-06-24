@@ -55,6 +55,8 @@ nav .cta:hover{background:var(--ink);color:var(--cream)}
 .hero h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(64px,11vw,160px);line-height:.8;letter-spacing:-.03em}
 .hero h1 em{color:var(--plum);font-style:italic;font-weight:500;display:block}
 .hero .sub{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(20px,2.5vw,32px);margin-top:24px;max-width:500px;color:#3a3327}
+.hero .badge{display:inline-flex;align-items:center;gap:8px;margin-top:22px;padding:11px 20px;border:1px solid var(--line);border-radius:40px;background:rgba(255,255,255,.45);font-size:14px;letter-spacing:.01em;color:var(--olive);font-weight:600}
+.hero .badge b{color:var(--ink);font-weight:800}
 .hero .row{display:flex;gap:16px;margin-top:34px;flex-wrap:wrap}
 .btn{display:inline-block;text-decoration:none;border-radius:40px;padding:15px 28px;font-weight:700;font-size:14px;letter-spacing:.06em;transition:transform .15s,background .2s}
 .btn:hover{transform:translateY(-2px)}
@@ -180,9 +182,10 @@ footer a{color:#e0b7d1;text-decoration:none}
 <header class="hero">
   <div class="wrap herogrid">
     <div class="herotext">
-      <div class="tag">Edge Esmeralda · made from ocean nets</div>
+      <div class="tag">Made from recycled ocean nets</div>
       <h1>Holy<em>Hats</em></h1>
       <div class="sub">The world&rsquo;s first carbon-sequestering bucket hat with a hole.</div>
+      <div class="badge reveal">🌊 <b>100% recycled ocean fishnet</b> · infinitely recyclable monomaterial · PFAS-free · −70% CO₂</div>
       <div class="row">
         <a class="btn btn-dark" href="#pitch">The pitch ↓</a>
         <a class="btn btn-dark" style="background:var(--plum)" href="https://www.instagram.com/holyhatsco" target="_blank" rel="noopener">📷 Follow @holyhatsco</a>
@@ -191,23 +194,43 @@ footer a{color:#e0b7d1;text-decoration:none}
     </div>
     <div class="heroimg"><img src="img/top-square.jpg" alt="The HolyHats lineup floating in the clouds — Edge blueprint olive plus crochet colorways"></div>
   </div>
-  <div class="scrollcue">scroll · ocean net in · top-knot out</div>
+  <div class="scrollcue">ocean net in · top-knot out</div>
 </header>
 
 <section id="pitch">
   <div class="wrap">
-    <p class="lede reveal">Ever wanted to wear your <b>fashionable top-knot up</b>, get <em>real</em> sun protection, but <b>not</b> look like a granny at a casino in a foam visor? For all of human history you had to pick two. <em>HolyHats lets you have it all.</em></p>
+    <p class="lede reveal">Ever wanted to wear a <b>bun</b> and a <b>bucket hat</b>? For all of human history you had to pick one. <em>Now you don't.</em></p>
     <div class="two" style="margin-top:60px">
       <div>
         <p class="p reveal">Here's what it is: a bucket hat with <strong>a hole in the top.</strong> Your top-knot — your bun, your buns — goes <em>through</em> the hole and out the crown. Hair's up, face is shaded, and you look like the <strong>hippest person in town.</strong> No visor. No granny. No compromise.</p>
-        <p class="p reveal">You might think "make the hole big." Wrong. The hole is <strong>small on purpose</strong> — when it's snug around your bun, <strong>your own hair holds the hat down.</strong> No chin strap garroting you under the jaw. A gust hits, and where a normal hat sails into the sea, your HolyHat <em>stays put</em> — anchored by the magnificent bun God gave you.</p>
+        <p class="p reveal">The hole is <strong>small on purpose</strong>: snug around your bun, <strong>your own hair holds the hat down.</strong> No chin strap. A gust hits and it <em>stays put</em> — anchored by the <strong>magnificent bun you grew yourself.</strong></p>
       </div>
       <div>
         <figure class="reveal"><img src="img/product-grid.jpg" alt="The HolyHat design — Edge blueprint grid on ocean-net nylon"></figure>
       </div>
     </div>
     <p class="pull reveal">The market? Enormous. Every single person has a head. <em>Most</em> of them. And every head deserves a little divine airflow.</p>
-    <p class="p reveal" style="max-width:760px">"But what if my bun isn't big enough to anchor it?" Glad you asked — that's <strong>expansion revenue.</strong> We'll also sell <strong>fake buns:</strong> toupee technology, relocated to the <em>summit.</em> Clip-in structural buns so even the bun-less achieve full hat-retention. We don't just sell the hat — we sell <strong>the hair that holds it on.</strong></p>
+    <p class="p reveal" style="max-width:760px">"But what if I don't have a bun?" No problem — HolyHats ventilate, shade, and swag out the <strong>bald and hairy alike.</strong> Plus you get a <strong>holy halo tan line</strong> from all that sun. Better yet we'll also make <strong>fake buns:</strong> toupee technology, relocated to the <em>summit.</em> Think Jibbitz but bigger and better. Clip-in structural buns so even the bun-less get the full experience.</p>
+  </div>
+</section>
+
+<section id="ocean">
+  <div class="wrap two">
+    <div>
+      <div class="skick kick reveal">Made 100% sustainably</div>
+      <h2 class="shead reveal">You're pulling nets out of the sea &amp; <em>wearing them.</em></h2>
+      <p class="p reveal">Every HolyHat is made from <strong>100% Return to Vendor (RTV)</strong> nylon — spun from <strong>recycled ocean fishing nets</strong> (~46% of ocean plastic by weight). RTV's breakthrough chemistry rebuilds that nylon over and over with almost no yield lost: <strong>infinitely recyclable, PFAS-free, ~70% lower CO₂,</strong> at price parity with virgin nylon. The world's first <strong>carbon-sequestering bucket hat.</strong></p>
+    </div>
+    <figure class="reveal"><img src="img/product-black.jpg" alt="HolyHats in charcoal ocean-net nylon, top-knots out"></figure>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal"><div class="n">~46%</div><div class="l">of ocean plastic is fishing nets</div></div>
+      <div class="stat reveal"><div class="n">∞</div><div class="l">infinitely recyclable nylon</div></div>
+      <div class="stat reveal"><div class="n">0</div><div class="l">PFAS · zero deadstock</div></div>
+      <div class="stat reveal"><div class="n">−70%</div><div class="l">CO₂ vs virgin nylon</div></div>
+      <div class="stat reveal"><div class="n">1st</div><div class="l">DTC product made from RTV</div></div>
+    </div>
   </div>
 </section>
 
@@ -216,9 +239,9 @@ footer a{color:#e0b7d1;text-decoration:none}
     <div class="skick kick reveal">The product line</div>
     <h2 class="shead reveal">This is just the <em>MVP.</em></h2>
     <div class="cards">
-      <div class="card reveal"><div class="ed">Edition One</div><h3>Edge Merch</h3><p>A HolyHat repping <strong>Edge City.</strong> So rad and so functional that strangers stop you to ask where you got it — your opening to talk about Edge and genuinely blow their mind. A hat that does your networking for you.</p></div>
-      <div class="card reveal"><div class="ed">Edition Two</div><h3>The Blank Slate</h3><p>Bring your own art, and we print it on an <strong>RTV HolyHat</strong> made just for you. Your design, our ocean-net nylon, zero waste.</p></div>
-      <div class="card dream reveal"><div class="ed">Edition Three · the dream</div><h3>The Space Bun Hat</h3><p><em>Two</em> holes. <em>Two</em> buns. Double the anchoring, double the halo, double the glory. We're not there yet. But we're going.</p></div>
+      <div class="card reveal"><div class="ed">Edition One</div><h3>Edge Merch</h3><p>A HolyHat repping <strong>Edge City.</strong> So rad and so functional that strangers stop you to ask where you got it — a hat that does your networking for you.</p></div>
+      <div class="card reveal"><div class="ed">Edition Two</div><h3>The Blank Slate</h3><p>Bring your own art, and we print it on an <strong>RTV HolyHat</strong> made just for you. Your design, RTV's sustainable up-cycled material.</p></div>
+      <div class="card dream reveal"><div class="ed">Edition Three · the dream</div><h3>The Space Bun Hat</h3><p><em>Two</em> holes. <em>Two</em> buns. Double the funz.</p></div>
       <div class="card cult reveal"><div class="ed">The cult favorite</div><h3>The Glory Hat</h3><p>The colloquial name for the hole-in-the-top situation. There's a hole. It's glorious. People named it themselves. We simply allowed it.</p></div>
     </div>
   </div>
@@ -228,7 +251,7 @@ footer a{color:#e0b7d1;text-decoration:none}
   <div class="bannertext reveal">
     <div class="bk">Olive blueprint · crochet colorways</div>
     <h2>A hole new way to wear your hair &amp; <em>tan your top.</em></h2>
-    <p>Pulled from the sea, floating in the clouds — every head deserves a little divine airflow.</p>
+    <p>Pulled from the sea, floating in the clouds.</p>
   </div>
 </section>
 
@@ -245,26 +268,6 @@ footer a{color:#e0b7d1;text-decoration:none}
         <h3>The <span class="e">Vitamin D Portal</span></h3>
         <p class="p">The top of your head has some of the most underused vitamin D receptors on the body. HolyHats opens the channel — you're <strong>shaded AND synthesizing.</strong> Works whether you're bald or hairy. The most inclusive hole in fashion.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="ocean">
-  <div class="wrap two">
-    <div>
-      <div class="skick kick reveal">The genuinely serious part</div>
-      <h2 class="shead reveal">You're pulling nets out of the sea &amp; <em>wearing them.</em></h2>
-      <p class="p reveal">I'm working with <strong>Return to Vendor (RTV)</strong> — their nylon is spun from <strong>recycled ocean fishing nets</strong> (~46% of ocean plastic by weight). Breakthrough chemistry <strong>depolymerises and rebuilds</strong> that nylon over and over with almost no yield lost — truly infinitely recyclable, PFAS-free, ~70% lower CO₂, and at <strong>price parity</strong> with virgin. Want a new design later? We grind it up and make you a new one. You're quite literally <strong>pulling nets out of the sea and wearing them on your head.</strong></p>
-    </div>
-    <figure class="reveal"><img src="img/product-black.jpg" alt="HolyHats in charcoal ocean-net nylon, top-knots out"></figure>
-  </div>
-  <div class="wrap">
-    <div class="stats">
-      <div class="stat reveal"><div class="n">~46%</div><div class="l">of ocean plastic is fishing nets</div></div>
-      <div class="stat reveal"><div class="n">∞</div><div class="l">infinitely recyclable nylon</div></div>
-      <div class="stat reveal"><div class="n">0</div><div class="l">PFAS · zero deadstock</div></div>
-      <div class="stat reveal"><div class="n">−70%</div><div class="l">CO₂ vs virgin nylon</div></div>
-      <div class="stat reveal"><div class="n">1st</div><div class="l">DTC product made from RTV</div></div>
     </div>
   </div>
 </section>
@@ -310,6 +313,7 @@ footer a{color:#e0b7d1;text-decoration:none}
       <figure><img src="img/wild-trio.jpg" alt="Three friends in HolyHats, buns out"></figure>
       <figure><img src="img/wild-group.jpg" alt="Friends crowding in around a denim HolyHat"></figure>
       <figure><img src="img/wild-duo.jpg" alt="Two friends in HolyHats, arms around each other"></figure>
+      <figure><img src="img/wild-flicker.gif" alt="HolyHats designs flickering — olive Edge blueprint, crochet colorways, ocean-net nylon"></figure>
     </div>
   </div>
 </section>
